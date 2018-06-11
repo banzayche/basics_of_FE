@@ -1,0 +1,57 @@
+§ HTML/CSS
+1. For what purposes we need DOCTYPE at the top of HTML?
+2. What new  tags in HTML5 (<article>, <aside>, <details>, <figcaption>, <figure>, <footer>, <header>, <main>,
+<mark>, <nav>, <section>, <summary>, <time>)
+3. What new API in HTML5 (audio, video, localStorage, SessionStorage, Canvas, WebStorage)
+4. What is the difference between 'table markup' and 'block markup'?
+5. What is the difference between 'responsive' and 'adaptive' design?
+6. What Pseudo class selectors you know, use, for what purposes? https://www.w3schools.com/cssref/css_selectors.asp
+
+Display && Float
+7. What possible values for "display" attribute https://www.w3schools.com/cssref/pr_class_display.asp
+8. For what purposes we need "float" and "clear" (https://www.w3schools.com/cssref/pr_class_clear.asp)
+
+Flex
+
+Position
+
+Z-index
+
+Scroll
+
+$ JavaScript
+1. What types exists in JS (boolean, number, undefined, null, symbol, string; object)
+2. In which way we able to declare variable what is the difference (const, let, var)
+3. What is OOP, main OOP basis? (Polymorphism, Encapsulation, Abstraction, Inheritance)
+4. What is the mechanism of inheritance in JS? (show example in es6 and es5 is there any difference)
+why need Object.create
+5. What is SOLID
+6. Promise / async await
+7. REST?
+
+
+5. What is the FP?
+6. What is pure functions? (no side effects, no shared state, same output it same input)
+7. What is HigerOrder functions?
+8. FunctionComposition? Currying and PartialApplience? Recursion?
+
+
+AngularJS
+1. What is two way data binding why it was useful, why Angular get rid of it?
+2. $scope, $root-scope
+3. where better to write some specific methods for request for server
+4. what should i use if i require many instances similar of some object in different cases. TODO define cases
+5. $whatch is good or not?
+6. $emit, $broadcast, $on (https://stackoverflow.com/questions/37717493/usage-of-broadcast-emit-and-on-in-angularjs)
+7. $whatch, $digest, $apply (http://tutorials.jenkov.com/angularjs/watch-digest-apply.html)
+
+ARROW FUNCTION
+Arrow functionsArrow functions are more or less equivalent to function statements, except that they bind the this argument to that of the parent scope.
+In other words, if an arrow function appears in the top scope, its this argument will always refer to the global scope
+ (e.g., window in browsers or global in node.js), while an arrow function inside a regular function will have 
+ its this argument the same as its outer function, as your code demostrates.
+
+SetTimeout & SetInterval
+Code which keeps inside of callback function of SetTimeout or SetInterval will be executed not erlear than declared milliseconds count. But,
+if some code executes at this time SetTimeout or SetInterval will wait until that code will be executed and only after it will invoke callback function.
+So, if SetInterval or SetTimeout has attribute 0 as milliseconds count it's not mean tha callback function will be executed exact after declared time.
