@@ -1,0 +1,22 @@
+JS:       Memory Heap, Call Stack -> v8 engine
+Web APIs: DOM (document) -> provided by browsers
+AJAX:     (XMLHttpRequest) -> 
+Timeout:  (setTimeout)
+event loop, callbackQue
+
+Javascript has single call stack and able to do only one thing at one time
+Call Stack - is a data structure, the top line of what says where at the program we are
+
+So for example:
+function fnA(){}
+function fnB(){ fnA(); }
+
+the Call Stack state will be:
+1 step -> fnB
+2 step -> fnB,fnA
+3 step -> fnB
+4 step -> nothing
+
+
+V8 optiomisations
+https://blog.sessionstack.com/how-javascript-works-inside-the-v8-engine-5-tips-on-how-to-write-optimized-code-ac089e62b12e

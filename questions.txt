@@ -2,7 +2,8 @@
 1. For what purposes we need DOCTYPE at the top of HTML?
 2. What new  tags in HTML5 (<article>, <aside>, <details>, <figcaption>, <figure>, <footer>, <header>, <main>,
 <mark>, <nav>, <section>, <summary>, <time>)
-3. What new API in HTML5 (audio, video, localStorage, SessionStorage, Canvas, WebStorage)
+3. What new API in HTML5 (audio, video, Canvas, WebStorage API (session SessionStorage & LocalStorage))
+3.1 API - набор процедур, классов, констант, предоставляемых приложением, библиотекой для использования во внешних програмных продуктах.
 4. What is the difference between 'table markup' and 'block markup'?
 5. What is the difference between 'responsive' and 'adaptive' design?
 6. What Pseudo class selectors you know, use, for what purposes? https://www.w3schools.com/cssref/css_selectors.asp
@@ -28,6 +29,7 @@ why need Object.create
 5. What is SOLID
 6. Promise / async await
 7. REST?
+8. JSON stringify to clone object with nesting
 
 
 5. What is the FP?

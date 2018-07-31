@@ -1,6 +1,6 @@
 class Observable {
   next(data) {
-    this.state = data;
+
   }
 
   subscribe(fn) {
